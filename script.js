@@ -7,6 +7,8 @@ let countyData;
 let educationData;
 
 let canvas = d3.select("#canvas");
+let tooltip = d3.select('#tooltip')
+
 
 let drawMap = () => {
   canvas
